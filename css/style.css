@@ -82,6 +82,7 @@ button:hover {
 
 .underline-dark {
   border-top: 2px solid black;
+  margin-top: 5px;
 }
 
 .underline-light {
@@ -175,8 +176,6 @@ header .hero-img .hero-shadow {
   color: white;
 }
 
-
-
 .heading-image-container {
   align-items: end;
   display: flex;
@@ -212,7 +211,7 @@ header .hero-img .hero-text {
 .heading-image-container {
   align-items: end;
   display: flex;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   justify-content: center;}
 
 header .hero-img .hero-text h1 {
@@ -406,15 +405,19 @@ header .hero-img .hero-text .bi-arrow-down:hover {
  .about {
   margin-bottom: 90px;
   text-align: center;
+  background-color: rgb(255, 255, 255);
+  
  }
 
   
 .about p {
   margin-top: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
 }
 
 #about {
-  padding-top: 290px;
+  padding-top: 200px;
   margin-top: -200px;
 }
 
@@ -466,9 +469,7 @@ header .hero-img .hero-text .bi-arrow-down:hover {
   border-image-slice: 1;
 }
 
-.portfolio{
-  
-}
+
 
 /**Footer*/
     
@@ -554,9 +555,7 @@ footer.footerContainer{
 /*
  * Footer
  */
- footer {
-  margin-bottom: 40px;
-}
+
 
 footer span {
   color: #00e9e6;
@@ -567,6 +566,8 @@ footer span {
     font-size: 50px;
   }
 }
+
+
 
 @media (min-width: 576px) and (max-width: 992px) {
   .portfolio .gallery .gallery__item:hover .overlay {
@@ -581,10 +582,16 @@ footer span {
 
 
 
-
 @media (max-width: 992px) {
   header .hero-img .hero-text h1 {
     font-size: 15vw;
+    line-height: 13.5vw;
+  }
+}
+
+@media (max-width: 992px) {
+  header .hero-img .hero-text h2 {
+    font-size: 11vw;
     line-height: 13.5vw;
   }
 }
